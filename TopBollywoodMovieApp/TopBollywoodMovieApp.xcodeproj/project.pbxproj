@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358306DB1C3B963600DF742A /* TBMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 358306DA1C3B963600DF742A /* TBMConstants.m */; };
+		35A6DBBA1C3A478500470600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBB91C3A478500470600 /* main.m */; };
+		35A6DBBD1C3A478500470600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBBC1C3A478500470600 /* AppDelegate.m */; };
+		35A6DBC31C3A478500470600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A6DBC11C3A478500470600 /* Main.storyboard */; };
+		35A6DBC51C3A478500470600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A6DBC41C3A478500470600 /* Assets.xcassets */; };
+		35A6DBC81C3A478500470600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A6DBC61C3A478500470600 /* LaunchScreen.storyboard */; };
+		35A6DBD31C3A478500470600 /* TopBollywoodMovieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBD21C3A478500470600 /* TopBollywoodMovieAppTests.m */; };
+		35A6DBDE1C3A478500470600 /* TopBollywoodMovieAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBDD1C3A478500470600 /* TopBollywoodMovieAppUITests.m */; };
+		35A6DBED1C3A487500470600 /* TBMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBEC1C3A487500470600 /* TBMTableViewController.m */; };
+		35A6DBF31C3A549C00470600 /* TBMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBF21C3A549C00470600 /* TBMTableViewCell.m */; };
+		35A6DBF91C3A5B8D00470600 /* TBMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6DBF81C3A5B8D00470600 /* TBMDetailViewController.m */; };
+		35C580921C3A638A0020E255 /* TBMModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C580911C3A638A0020E255 /* TBMModelClass.m */; };
+		35C580961C3A64000020E255 /* TBMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C580951C3A64000020E255 /* TBMNetworkManager.m */; };
+		35C580A41C3A66670020E255 /* TBMImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C580A31C3A66670020E255 /* TBMImageDownload.m */; };
+		35C580AD1C3A6A5C0020E255 /* TBMJsonDataFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C580AC1C3A6A5C0020E255 /* TBMJsonDataFetch.m */; };
+		35F2C8A61C3AC15300A65262 /* TBMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F2C8A51C3AC15300A65262 /* TBMImageCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35A6DBCF1C3A478500470600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6DBAD1C3A478500470600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A6DBB41C3A478500470600;
+			remoteInfo = TopBollywoodMovieApp;
+		};
+		35A6DBDA1C3A478500470600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6DBAD1C3A478500470600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A6DBB41C3A478500470600;
+			remoteInfo = TopBollywoodMovieApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358306D91C3B963600DF742A /* TBMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMConstants.h; path = Constants/TBMConstants.h; sourceTree = "<group>"; };
+		358306DA1C3B963600DF742A /* TBMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMConstants.m; path = Constants/TBMConstants.m; sourceTree = "<group>"; };
+		35A6DBB51C3A478500470600 /* TopBollywoodMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopBollywoodMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6DBB91C3A478500470600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35A6DBBB1C3A478500470600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35A6DBBC1C3A478500470600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35A6DBC21C3A478500470600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35A6DBC41C3A478500470600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35A6DBC71C3A478500470600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35A6DBC91C3A478500470600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A6DBCE1C3A478500470600 /* TopBollywoodMovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopBollywoodMovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6DBD21C3A478500470600 /* TopBollywoodMovieAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBollywoodMovieAppTests.m; sourceTree = "<group>"; };
+		35A6DBD41C3A478500470600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A6DBD91C3A478500470600 /* TopBollywoodMovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopBollywoodMovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6DBDD1C3A478500470600 /* TopBollywoodMovieAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBollywoodMovieAppUITests.m; sourceTree = "<group>"; };
+		35A6DBDF1C3A478500470600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A6DBEB1C3A487500470600 /* TBMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMTableViewController.h; path = Classes/Controllers/TBMTableViewController.h; sourceTree = "<group>"; };
+		35A6DBEC1C3A487500470600 /* TBMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMTableViewController.m; path = Classes/Controllers/TBMTableViewController.m; sourceTree = "<group>"; };
+		35A6DBF11C3A549C00470600 /* TBMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMTableViewCell.h; path = Classes/Views/TBMTableViewCell.h; sourceTree = "<group>"; };
+		35A6DBF21C3A549C00470600 /* TBMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMTableViewCell.m; path = Classes/Views/TBMTableViewCell.m; sourceTree = "<group>"; };
+		35A6DBF71C3A5B8D00470600 /* TBMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMDetailViewController.h; path = Classes/Controllers/TBMDetailViewController.h; sourceTree = "<group>"; };
+		35A6DBF81C3A5B8D00470600 /* TBMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMDetailViewController.m; path = Classes/Controllers/TBMDetailViewController.m; sourceTree = "<group>"; };
+		35C580901C3A638A0020E255 /* TBMModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMModelClass.h; path = Classes/Models/TBMModelClass.h; sourceTree = "<group>"; };
+		35C580911C3A638A0020E255 /* TBMModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMModelClass.m; path = Classes/Models/TBMModelClass.m; sourceTree = "<group>"; };
+		35C580941C3A64000020E255 /* TBMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMNetworkManager.h; path = Classes/Utility/TBMNetworkManager.h; sourceTree = "<group>"; };
+		35C580951C3A64000020E255 /* TBMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMNetworkManager.m; path = Classes/Utility/TBMNetworkManager.m; sourceTree = "<group>"; };
+		35C580A11C3A65D80020E255 /* TBMImageDownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMImageDownloadDelegate.h; path = Classes/Controllers/Protocols/TBMImageDownloadDelegate.h; sourceTree = "<group>"; };
+		35C580A21C3A66670020E255 /* TBMImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMImageDownload.h; path = Classes/Utility/TBMImageDownload.h; sourceTree = "<group>"; };
+		35C580A31C3A66670020E255 /* TBMImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMImageDownload.m; path = Classes/Utility/TBMImageDownload.m; sourceTree = "<group>"; };
+		35C580AB1C3A6A5C0020E255 /* TBMJsonDataFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMJsonDataFetch.h; path = Classes/Utility/TBMJsonDataFetch.h; sourceTree = "<group>"; };
+		35C580AC1C3A6A5C0020E255 /* TBMJsonDataFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMJsonDataFetch.m; path = Classes/Utility/TBMJsonDataFetch.m; sourceTree = "<group>"; };
+		35F2C8A41C3AC15300A65262 /* TBMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMImageCache.h; path = Classes/Utility/TBMImageCache.h; sourceTree = "<group>"; };
+		35F2C8A51C3AC15300A65262 /* TBMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMImageCache.m; path = Classes/Utility/TBMImageCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35A6DBB21C3A478500470600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBCB1C3A478500470600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBD61C3A478500470600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358306D81C3B959600DF742A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				358306D91C3B963600DF742A /* TBMConstants.h */,
+				358306DA1C3B963600DF742A /* TBMConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		35A6DBAC1C3A478500470600 = {
+			isa = PBXGroup;
+			children = (
+				35A6DBB71C3A478500470600 /* TopBollywoodMovieApp */,
+				35A6DBD11C3A478500470600 /* TopBollywoodMovieAppTests */,
+				35A6DBDC1C3A478500470600 /* TopBollywoodMovieAppUITests */,
+				35A6DBB61C3A478500470600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35A6DBB61C3A478500470600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35A6DBB51C3A478500470600 /* TopBollywoodMovieApp.app */,
+				35A6DBCE1C3A478500470600 /* TopBollywoodMovieAppTests.xctest */,
+				35A6DBD91C3A478500470600 /* TopBollywoodMovieAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35A6DBB71C3A478500470600 /* TopBollywoodMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				358306D81C3B959600DF742A /* Constants */,
+				35A6DBEE1C3A487D00470600 /* Classes */,
+				35A6DBBB1C3A478500470600 /* AppDelegate.h */,
+				35A6DBBC1C3A478500470600 /* AppDelegate.m */,
+				35A6DBC11C3A478500470600 /* Main.storyboard */,
+				35A6DBC41C3A478500470600 /* Assets.xcassets */,
+				35A6DBC61C3A478500470600 /* LaunchScreen.storyboard */,
+				35A6DBC91C3A478500470600 /* Info.plist */,
+				35A6DBB81C3A478500470600 /* Supporting Files */,
+			);
+			path = TopBollywoodMovieApp;
+			sourceTree = "<group>";
+		};
+		35A6DBB81C3A478500470600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35A6DBB91C3A478500470600 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35A6DBD11C3A478500470600 /* TopBollywoodMovieAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				35A6DBD21C3A478500470600 /* TopBollywoodMovieAppTests.m */,
+				35A6DBD41C3A478500470600 /* Info.plist */,
+			);
+			path = TopBollywoodMovieAppTests;
+			sourceTree = "<group>";
+		};
+		35A6DBDC1C3A478500470600 /* TopBollywoodMovieAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35A6DBDD1C3A478500470600 /* TopBollywoodMovieAppUITests.m */,
+				35A6DBDF1C3A478500470600 /* Info.plist */,
+			);
+			path = TopBollywoodMovieAppUITests;
+			sourceTree = "<group>";
+		};
+		35A6DBEE1C3A487D00470600 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35C580931C3A63A90020E255 /* Utility */,
+				35C5808C1C3A62D40020E255 /* Models */,
+				35A6DBF01C3A545600470600 /* Views */,
+				35A6DBEF1C3A488C00470600 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		35A6DBEF1C3A488C00470600 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35C5809D1C3A64F80020E255 /* Protocols */,
+				35A6DBEB1C3A487500470600 /* TBMTableViewController.h */,
+				35A6DBEC1C3A487500470600 /* TBMTableViewController.m */,
+				35A6DBF71C3A5B8D00470600 /* TBMDetailViewController.h */,
+				35A6DBF81C3A5B8D00470600 /* TBMDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		35A6DBF01C3A545600470600 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35A6DBF11C3A549C00470600 /* TBMTableViewCell.h */,
+				35A6DBF21C3A549C00470600 /* TBMTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		35C5808C1C3A62D40020E255 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35C580901C3A638A0020E255 /* TBMModelClass.h */,
+				35C580911C3A638A0020E255 /* TBMModelClass.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		35C580931C3A63A90020E255 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				35C580941C3A64000020E255 /* TBMNetworkManager.h */,
+				35C580951C3A64000020E255 /* TBMNetworkManager.m */,
+				35C580A21C3A66670020E255 /* TBMImageDownload.h */,
+				35C580A31C3A66670020E255 /* TBMImageDownload.m */,
+				35C580AB1C3A6A5C0020E255 /* TBMJsonDataFetch.h */,
+				35C580AC1C3A6A5C0020E255 /* TBMJsonDataFetch.m */,
+				35F2C8A41C3AC15300A65262 /* TBMImageCache.h */,
+				35F2C8A51C3AC15300A65262 /* TBMImageCache.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		35C5809D1C3A64F80020E255 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				35C580A11C3A65D80020E255 /* TBMImageDownloadDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35A6DBB41C3A478500470600 /* TopBollywoodMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A6DBE21C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieApp" */;
+			buildPhases = (
+				35A6DBB11C3A478500470600 /* Sources */,
+				35A6DBB21C3A478500470600 /* Frameworks */,
+				35A6DBB31C3A478500470600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopBollywoodMovieApp;
+			productName = TopBollywoodMovieApp;
+			productReference = 35A6DBB51C3A478500470600 /* TopBollywoodMovieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35A6DBCD1C3A478500470600 /* TopBollywoodMovieAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A6DBE51C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieAppTests" */;
+			buildPhases = (
+				35A6DBCA1C3A478500470600 /* Sources */,
+				35A6DBCB1C3A478500470600 /* Frameworks */,
+				35A6DBCC1C3A478500470600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A6DBD01C3A478500470600 /* PBXTargetDependency */,
+			);
+			name = TopBollywoodMovieAppTests;
+			productName = TopBollywoodMovieAppTests;
+			productReference = 35A6DBCE1C3A478500470600 /* TopBollywoodMovieAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35A6DBD81C3A478500470600 /* TopBollywoodMovieAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A6DBE81C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieAppUITests" */;
+			buildPhases = (
+				35A6DBD51C3A478500470600 /* Sources */,
+				35A6DBD61C3A478500470600 /* Frameworks */,
+				35A6DBD71C3A478500470600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A6DBDB1C3A478500470600 /* PBXTargetDependency */,
+			);
+			name = TopBollywoodMovieAppUITests;
+			productName = TopBollywoodMovieAppUITests;
+			productReference = 35A6DBD91C3A478500470600 /* TopBollywoodMovieAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35A6DBAD1C3A478500470600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TBM;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Robosoft;
+				TargetAttributes = {
+					35A6DBB41C3A478500470600 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					35A6DBCD1C3A478500470600 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 35A6DBB41C3A478500470600;
+					};
+					35A6DBD81C3A478500470600 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 35A6DBB41C3A478500470600;
+					};
+				};
+			};
+			buildConfigurationList = 35A6DBB01C3A478500470600 /* Build configuration list for PBXProject "TopBollywoodMovieApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35A6DBAC1C3A478500470600;
+			productRefGroup = 35A6DBB61C3A478500470600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35A6DBB41C3A478500470600 /* TopBollywoodMovieApp */,
+				35A6DBCD1C3A478500470600 /* TopBollywoodMovieAppTests */,
+				35A6DBD81C3A478500470600 /* TopBollywoodMovieAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35A6DBB31C3A478500470600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6DBC81C3A478500470600 /* LaunchScreen.storyboard in Resources */,
+				35A6DBC51C3A478500470600 /* Assets.xcassets in Resources */,
+				35A6DBC31C3A478500470600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBCC1C3A478500470600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBD71C3A478500470600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35A6DBB11C3A478500470600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6DBBD1C3A478500470600 /* AppDelegate.m in Sources */,
+				35A6DBED1C3A487500470600 /* TBMTableViewController.m in Sources */,
+				35C580961C3A64000020E255 /* TBMNetworkManager.m in Sources */,
+				35A6DBBA1C3A478500470600 /* main.m in Sources */,
+				35F2C8A61C3AC15300A65262 /* TBMImageCache.m in Sources */,
+				35A6DBF31C3A549C00470600 /* TBMTableViewCell.m in Sources */,
+				358306DB1C3B963600DF742A /* TBMConstants.m in Sources */,
+				35C580921C3A638A0020E255 /* TBMModelClass.m in Sources */,
+				35A6DBF91C3A5B8D00470600 /* TBMDetailViewController.m in Sources */,
+				35C580A41C3A66670020E255 /* TBMImageDownload.m in Sources */,
+				35C580AD1C3A6A5C0020E255 /* TBMJsonDataFetch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBCA1C3A478500470600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6DBD31C3A478500470600 /* TopBollywoodMovieAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6DBD51C3A478500470600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6DBDE1C3A478500470600 /* TopBollywoodMovieAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35A6DBD01C3A478500470600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A6DBB41C3A478500470600 /* TopBollywoodMovieApp */;
+			targetProxy = 35A6DBCF1C3A478500470600 /* PBXContainerItemProxy */;
+		};
+		35A6DBDB1C3A478500470600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A6DBB41C3A478500470600 /* TopBollywoodMovieApp */;
+			targetProxy = 35A6DBDA1C3A478500470600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35A6DBC11C3A478500470600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A6DBC21C3A478500470600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35A6DBC61C3A478500470600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A6DBC71C3A478500470600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35A6DBE01C3A478500470600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35A6DBE11C3A478500470600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35A6DBE31C3A478500470600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = TopBollywoodMovieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35A6DBE41C3A478500470600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = TopBollywoodMovieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35A6DBE61C3A478500470600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopBollywoodMovieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopBollywoodMovieApp.app/TopBollywoodMovieApp";
+			};
+			name = Debug;
+		};
+		35A6DBE71C3A478500470600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopBollywoodMovieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopBollywoodMovieApp.app/TopBollywoodMovieApp";
+			};
+			name = Release;
+		};
+		35A6DBE91C3A478500470600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopBollywoodMovieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopBollywoodMovieApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		35A6DBEA1C3A478500470600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopBollywoodMovieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.TopBollywoodMovieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopBollywoodMovieApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35A6DBB01C3A478500470600 /* Build configuration list for PBXProject "TopBollywoodMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A6DBE01C3A478500470600 /* Debug */,
+				35A6DBE11C3A478500470600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A6DBE21C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A6DBE31C3A478500470600 /* Debug */,
+				35A6DBE41C3A478500470600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A6DBE51C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A6DBE61C3A478500470600 /* Debug */,
+				35A6DBE71C3A478500470600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A6DBE81C3A478500470600 /* Build configuration list for PBXNativeTarget "TopBollywoodMovieAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A6DBE91C3A478500470600 /* Debug */,
+				35A6DBEA1C3A478500470600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35A6DBAD1C3A478500470600 /* Project object */;
+}
