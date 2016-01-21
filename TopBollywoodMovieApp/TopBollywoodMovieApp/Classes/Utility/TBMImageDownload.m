@@ -9,10 +9,14 @@
 #import "TBMImageDownload.h"
 #import "TBMImageDownloadDelegate.h"
 #import "TBMImageCache.h"
-
+//Added space 
 @interface TBMImageDownload()<NSURLConnectionDelegate>
+
+
 @property (strong,nonatomic)NSString* imageUrl;
 @property(assign,nonatomic)id<TBMImageDownloadDelegate>delegate;
+
+
 @end  
 
 @implementation TBMImageDownload
